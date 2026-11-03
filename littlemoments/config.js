@@ -3,8 +3,8 @@
 // NEVER paste a secret key, service_role key, database password,
 // Google client secret, GitHub client secret, or SMTP password here.
 window.LITTLE_MOMENTS_CONFIG = {
-  supabaseUrl: "https://YOUR_PROJECT.supabase.co",
-  supabasePublishableKey: "PASTE_YOUR_sb_publishable_KEY_HERE",
+  supabaseUrl: "https://zcpjolpobeluwmsjeexm.supabase.co/rest/v1/",
+  supabasePublishableKey: "sb_publishable_vIGKtohNjgxDQLMN7-xH9Q_15DE38oR",
 
   // Keep this exact URL in Supabase > Authentication > URL Configuration too.
   // Change it if you deploy into a different repository or folder.
