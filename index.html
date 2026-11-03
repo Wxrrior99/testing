@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ce377e">
+  <meta http-equiv="refresh" content="0; url=./littlemoments/">
+  <title>Little Moments</title>
+  <style>
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #fff5f8; color: #432534; font-family: system-ui, sans-serif; text-align: center; }
+    main { padding: 24px; }
+    a { color: #ad2866; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Little Moments ♡</h1>
+    <p>Opening your memory journal…</p>
+    <p><a href="./littlemoments/">Open Little Moments</a></p>
+  </main>
+  <script>
+    const destination = new URL('./littlemoments/', location.href);
+    destination.search = location.search;
+    destination.hash = location.hash;
+    location.replace(destination.href);
+  </script>
+</body>
+</html>
